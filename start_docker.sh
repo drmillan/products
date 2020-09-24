@@ -1,3 +1,3 @@
 #!/bin/bash -l
 docker build -t products .
-docker run --rm products
+docker run -d --rm products
